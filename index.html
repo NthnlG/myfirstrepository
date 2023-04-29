@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using CSS Flexbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--First Part Div-->
+    <div class="first-part">
+
+        <!--First Div-->
+        <div>
+            <p>Create a flexbox with 2 items. Widths = 200px|75px</p>
+            <div class="flex">
+                <div class="lightblue item1">200px</div>
+                <div class="pink item2">75px</div>
+            </div>
+        </div>
+
+        <!--Second Div-->
+        <div>
+            <p>A flexbox with 3 items. Widths = 50px|remaining space|75px</p>
+            <div class="flex flex2">
+                <div class="lightblue item1-f2">item1</div>
+                <div class="pink item2-f2">item2</div>
+                <div class="lightblue item3-f2">item3</div>
+            </div>
+        </div>
+
+        <!--Third Div-->
+        <div>
+            <p>A flexbox with 4 items, spreads evenly across the page</p>
+            <div class="flex third-div">
+                <div class="pink item1-f3">item1</div>
+                <div class="pink item2-f3">item2</div>
+                <div class="pink item3-f3">item3</div>
+                <div class="pink item4-f3">item4</div>
+            </div>
+        </div>
+
+        <!--Fourth Div-->
+        <div>
+            <p>Create the flexbox with height = 50px and gray border</p>
+            <div class="outside-div">
+                <div class="flex fourth-div">
+                    <div class="pink">item1</div>
+                    <div class="pink">item2</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--CHALLENGE TASK USING FLEXBOX-->
+    <div class="chal-text">CHALLENGE TASK USING FLEXBOX</div>
+    <div class="chal-main-div">
+        <div class="create">Create this Design</div>
+        <div class="white-bg">
+            <div class="violet-bg">
+                <div class="home">Home</div>
+                <div class="search">Search</div>
+                <div class="download">Download</div>
+            </div>
+        </div>
+    </div>
+
+    <!--Second Design-->
+    <div class="cha2-main-div">
+        <div class="create2">Create this design</div>
+        <div class="white-bg2">
+            <div class="gray-border">
+                <div class="h-n-m">
+                    <div class="ho-no-me">Home</div>
+                    <div class="num wd1">14</div>
+                </div>
+                <div class="h-n-m">
+                    <div class="ho-no-me">Notifications</div>
+                    <div class="num wd">3</div>
+                </div>
+                <div class="h-n-m">
+                    <div class="ho-no-me">Messages</div>
+                    <div class="num wd">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

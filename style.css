@@ -1,0 +1,184 @@
+/*First Part*/
+.first-part
+{
+    background-color: rgb(0, 0, 0);
+    font-family: Arial; 
+    margin: auto;
+    width: 500px;
+    height: 323px;
+    padding: 5px;
+}
+/*General Settings*/
+.flex{display: flex;}
+.lightblue{background-color: rgb(173, 216, 230);}
+.pink{background-color: rgb(255, 192, 203);}
+.first-part p
+{
+    color:rgb(255, 255, 255);
+    padding-left: 30px;
+}
+
+/*First Div*/
+.item1{width: 200px;}
+.item2{width: 75px;}
+
+/*Second Div*/
+.item1-f2{width: 50px;}
+.item2-f2{width: 100%;}
+.item3-f2{width: 75px;}
+
+/*Third Div*/
+.third-div
+{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+}
+
+/*Fourth Div*/
+.fourth-div
+{
+    justify-content: space-between;
+    align-items: center;
+    border:1px solid gray;
+    height: 50px;
+}
+.outside-div
+{
+    background-color:rgb(255, 255, 255);
+    padding: 8px;
+}
+
+/*CHALLENGE TASK USING FLEXBOX*/
+.chal-text
+{
+    margin: 40px 0 10px 0 ;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-family: Arial;
+}
+.chal-main-div
+{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-family: Arial; 
+    margin: auto;
+    width: 500px;
+    height: 83px;
+    padding: 2px;
+}
+.create
+{
+    height: 25px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.white-bg
+{
+    background-color: white;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.violet-bg
+{
+    background-color: rgb(112, 75, 167);
+    height: 40px;
+    width: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -7px;
+}
+.home
+{
+    font-size: x-small;
+    padding-left: 10px;
+    width: 50px;
+}
+.search
+{
+    background-color: white;
+    color: gray;
+    width: 260px;
+    height:20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    font-size: x-small;
+    padding-left: 20px;
+}
+.download
+{
+    border: 1px solid white;   
+    width: 70px;
+    height: 25px;
+    margin-right:5px;
+    font-size: x-small; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Second Design*/
+.cha2-main-div
+{
+    background-color: black;
+    width: 310px;
+    height: 140px;
+    margin: 10px auto;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.create2
+{
+    color: white;
+    height: 25px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.white-bg2
+{
+    background-color: white;
+    padding: 4px;
+    height: 100px;
+}
+.gray-border
+{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.h-n-m
+{
+    display: flex;
+    justify-content: space-between;
+}
+.num
+{
+    background-color: rgb(101, 101, 252);
+    color: white;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+.wd1
+{
+    width: 13px;
+    height: 18px;
+    font-size: small;
+    padding-left: 9px;
+    padding-top: 3px;
+}
+.wd
+{
+    width: 8px;
+    height: 18px;
+    font-size: small;
+    padding-left: 9px;
+    padding-top: 3px;
+}
