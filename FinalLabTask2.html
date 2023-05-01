@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Order Form</title>
+    <style>
+        #summary {
+          display: none;
+        }
+        .red{
+            color: rgb(255, 0, 0);
+        }
+      </style>
+</head>
+<body>  
+        <h1>Basketball Order Form</h1>
+        <form>
+          <label for="num_items">Basketball Products:</label>
+          <input type="text" id="num_items" name="num_items" value="0" readonly >
+          <button type="button" onclick="increment()">+</button>
+          <button type="button" onclick="decrement()">-</button>
+          <br>
+          <label for="shipping_fee">Shipping and Handling Fee:</label>
+          <input type="text" id="shipping_fee" name="shipping_fee">
+          <br>
+          <button type="button" onclick="calculateTotal()">Calculate Total</button>
+        </form>
+        <div id="summary">
+          <h2>Order Summary</h2>
+          <table>
+            <tr>
+              <td>Items:</td>
+              <td><span id="num_items_summary"></span></td>
+            </tr>
+            <tr>
+              <td>Shipping & Handling:</td>
+              <td><span id="shipping_fee_summary"></span></td>
+            </tr>
+            <tr>
+              <td>Total Before Tax:</td>
+              <td><span id="total_before_tax"></span></td>
+            </tr>
+            <tr>
+              <td>Estimated Tax(10%):</td>
+              <td><span id="estimated_tax"></span></td>
+            </tr>
+            <tr>
+              <td class="red">Order total:</td>
+              <td><span id="total_order" class="red"></span></td>
+            </tr>
+          </table>
+        </div>
+        <script type="text/javascript" src="FinalLabTask2.js"></script>
+</body>
+</html>
